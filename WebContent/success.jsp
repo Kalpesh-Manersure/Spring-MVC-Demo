@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Book store</title>
 </head>
 <body>
-welcome to success jsp <br>
+<h1>Welcome to Book Store</h1><br>
 <%=request.getAttribute("mb") %>
 <br><br>
 <h1>Book selected</h1>
-	<table align="center" border="2">
+	<h2><table align="center" border="2">
 	<tr>
 		<th align="left">Book Name</th>
 		<th align="left">Price</th>
@@ -20,7 +20,7 @@ welcome to success jsp <br>
 			<td> ${mb.bookName}</td>
 			<td> ${mb.price}</td>
 		</tr>
-	</table>
+		</table></h2>
 	<br><br><br>
 	<a href="new_book.do">Add More Books</a>
 </body>
