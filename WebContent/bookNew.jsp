@@ -7,10 +7,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Add new Book</title>
 </head>
 <body>
-<h1>Add New Book</h1>
+<h1>Add New Book Here</h1>
 <form:form method="post" commandName="mybook">
 Book Name<br>
 <form:input path="bookName"/> <br><br>
